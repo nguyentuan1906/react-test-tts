@@ -1,0 +1,55 @@
+
+.Header{
+    background: url(../assets/background1.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100% !important;
+    height: 912px;
+    
+}
+
+.TopLeftShape{
+    position: absolute;
+    box-sizing: border-box;
+    background: url(../assets/Top-Left-Shape.png) no-repeat top left;
+    background-size: cover;
+    width: 360px;
+    height: 360px;
+}
+
+.NavBar{
+    position: absolute;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.Logo{
+    flex: 1;
+    margin-right: 30px;
+}
+
+.Menu{
+    flex: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    margin: 0px 15px;
+}
+
+.Menu button{
+    background-color: orange;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+}
