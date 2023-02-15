@@ -1,33 +1,37 @@
 
 .Header{
+    position: relative;
     background: url(../assets/background1.jpg) ;
     background-size: cover;
     background-attachment: fixed;
     width: 100% !important;
     height: 912px;
-    
+    display: flex;
+    flex-direction: column;
+    z-index: 30;
+   justify-content: space-evenly;
 }
 
 .TopLeftShape{
     position: absolute;
+    top: 0;
     box-sizing: border-box;
     background: url(../assets/Top-Left-Shape.png) no-repeat top left;
     background-size: cover;
-    width: 360px;
-    height: 360px;
+    width: 24vw;
+    height: 24vw;
 }
 
 .NavBar{
     position: absolute;
     display: flex;
-    margin: 20px;
-    padding: 10px;
     width: 100%;
+    top: 0;
 }
 
 .Logo{
     flex: 1;
-    margin-right: 30px;
+    padding: 20px;
 }
 
 .Menu{
@@ -38,11 +42,11 @@
 }
 
 .Menu a{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
     justify-content: center;
-    margin: 0px 15px;
+    margin: 0px 20px;
 }
 
 .Menu button{
@@ -51,5 +55,121 @@
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 15px;
+    padding: 15px 30px;
+    margin: 0px 20px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.Menu button:hover{
+    background-color: #2880FC;
+    transform: translateY(-8px);
+}
+
+.ContactBox{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ContactBox p{
+    color: white;
+    margin: 0px;
+}
+
+.icon{
+    color: aliceblue;
+    margin-right: 15px;
+}
+
+.BottomRightShape{
+    position: absolute;
+    box-sizing: border-box;
+    background: url(../assets/Bottom-Right-Shape.png) no-repeat top left;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    width: 24vw;
+    height: 24vw;
+}
+
+.Banner{
+    position: relative;
+    padding-left: 15vw;
+    display: flex;
+}
+
+.BannerLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    bottom: 30px;
+}
+
+.BannerLink a{
+    margin-bottom: 15px;
+}
+
+.Link{
+    color: aliceblue;
+}
+
+.Link:hover{
+    color: orange
+}
+
+.BannerContent{
+    position: relative;
+    padding-left: 10px;
+    color: aliceblue;
+    width: 40vw;
+}
+
+.BannerContent h1{
+    font-size: 64px;
+}
+
+.BannerContent p{
+    font-size: 20px;
+}
+
+.Curve{
+    background: url(../assets/Curve-shape.png);
+    background-size: cover;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+    width: 5vw;
+    height: 5vw;
+}
+
+.BannerBtn button{
+    font-size: 28px;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px 50px;
+    margin: 0px 10px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.BannerBtn .btn1{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.BannerBtn button:hover{
+    background-color: #2880FC;
+    border: 1px solid #2880FC;
+    transform: translateY(-8px);
 }
