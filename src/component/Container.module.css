@@ -62,5 +62,27 @@
     display: flex;
     justify-content: center;
     top: -5vw;
-    left: 10vw;
+    padding-right: 7vw;
 }
+
+.none{
+    flex: 1;
+}
+.ab-video img{
+    flex: 3;
+}
+
+.Service{
+    background-color: #F3F3F5;
+    padding: 5vw;
+    display: flex;
+}
+
+.Curve-shape2{
+    background: url(../assets/Curve-shape2.png);
+    background-size: cover;
+    width: 24vw;
+    height: 24vw;
+    right: 0;
+}
+

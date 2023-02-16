@@ -27,8 +27,18 @@ const Container = () => {
                     </div>
                 </div>
                 <div className={style['ab-video']}>
+                    <div className={style['none']}></div>
                     <img src={video} alt="" />
                 </div>
+            </div>
+            <div className={style['Service']}>
+                <div className={style['ServiceSection']}>
+                    <div className={style['ser-left-sec']}></div>
+                    <div className={style['ser-right-sec']}>
+                        
+                    </div>
+                </div>
+                <div className={style['Curve-shape2']}></div>
             </div>
         </div>
     )
