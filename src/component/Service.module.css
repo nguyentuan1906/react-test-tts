@@ -3,7 +3,7 @@
 }
 .Service{
     background-color: #F3F3F5;
-    padding: 10% 5%;
+    padding: 10% 2%;
     position: relative;
 }
 
@@ -12,7 +12,7 @@
     background-size: cover;
     width: 24vw;
     height: 24vw;
-    right: 100px;
+    right: 80px;
     top: 100px;
     position: absolute;
 }
@@ -47,7 +47,7 @@
 }
 
 .ser-left-sec p{
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .ser-left-sec button{
