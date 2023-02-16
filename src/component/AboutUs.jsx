@@ -1,9 +1,6 @@
 import React from 'react'
-<<<<<<< HEAD
 import style from './AboutUs.module.css'
-=======
 import style from '../component/AboutUs.module.css'
->>>>>>> Service
 import AboutSecImg from '../assets/about-sec-img.jpg'
 import video from '../assets/video-poster.jpg'
 
