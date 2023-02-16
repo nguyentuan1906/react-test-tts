@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-*{
-    font-family: 'Rajdhani', sans-serif;
-}
 .AboutSection{
     display: flex;
     justify-content: space-evenly;
@@ -63,29 +59,5 @@
     display: flex;
     justify-content: center;
     top: -5vw;
-    padding-right: 7vw;
+    left: 10vw;
 }
-
-.none{
-    flex: 1;
-}
-.ab-video img{
-    flex: 3;
-}
-
-.Service{
-    background-color: #F3F3F5;
-    padding: 5vw;
-    display: flex;
-}
-
-.Curve-shape2{
-    background: url(../assets/Curve-shape2.png);
-    background-size: cover;
-    width: 24vw;
-    height: 24vw;
-    right: 0;
-}
-
-=======
->>>>>>> AboutUs
