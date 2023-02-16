@@ -51,8 +51,12 @@
     margin: 0px 20px;
 }
 
+.Menu a:hover{
+    color: #FA9F3C;
+}
+
 .Menu button{
-    background-color: orange;
+    background-color: #FA9F3C;
     font-size: 14px;
     color: white;
     border: none;
@@ -113,21 +117,35 @@
 }
 
 .BannerLink a{
+    border: 1px solid #FFFFFF;
+    padding: 2px;
     margin-bottom: 15px;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.BannerLink a:hover{
+    background-color: #FA9F3C;
+    transform: translateY(-8px);
 }
 
 .Link{
-    color: aliceblue;
+    color: #FFFFFF;
 }
 
-.Link:hover{
-    color: orange
-}
 
 .BannerContent{
     position: relative;
     padding-left: 10px;
-    color: aliceblue;
+    color: #FFFFFF;
     width: 40vw;
 }
 
@@ -154,8 +172,8 @@
     font-weight: 600;
     background-color: transparent;
     font-size: 14px;
-    color: white;
-    border: 1px solid white;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 20px;
     padding: 15px 50px;
     margin: 0px 10px;
@@ -166,8 +184,8 @@
 }
 
 .BannerBtn .btn1{
-    background-color: orange;
-    border: 1px solid orange;
+    background-color: #FA9F3C;
+    border: 1px solid #FA9F3C;
 }
 
 .BannerBtn button:hover{

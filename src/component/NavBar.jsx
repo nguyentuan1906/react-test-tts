@@ -32,9 +32,9 @@ const NavBar = () => {
             </div>
             <div className={style['Banner']}>
                 <div className={style['BannerLink']}>
-                    <a href=""> <FacebookOutlinedIcon fontSize="large" className={style['Link']} /> </a>
-                    <a href=""> <TwitterIcon fontSize="large" className={style['Link']} /> </a>
-                    <a href=""> <LinkedInIcon fontSize="large" className={style['Link']} /> </a>
+                    <a href=""> <FacebookOutlinedIcon fontSize="small" className={style['Link']} /> </a>
+                    <a href=""> <TwitterIcon fontSize="small" className={style['Link']} /> </a>
+                    <a href=""> <LinkedInIcon fontSize="small" className={style['Link']} /> </a>
                 </div>
                 <div className={style['BannerContent1']}>
                     <div className={style['Curve']}></div>
