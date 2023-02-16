@@ -1,6 +1,9 @@
 import React from 'react'
 import style from '../component/Service.module.css'
-import ser_img from '../assets/service-left-img.jpg'
+import service_icon1 from '../assets/service-icon1.png'
+import service_icon2 from '../assets/service-icon2.png'
+import service_icon3 from '../assets/service-icon3.png'
+import service_icon4 from '../assets/service-icon4.png'
 
 const Service = () => {
     return (
@@ -18,10 +21,35 @@ const Service = () => {
                     <button>Get Started</button>
                 </div>
                 <div className={style['ser-right-sec']}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className={style['ser-sec-gr']}>
+                        <a className={style['ser-sec-elm']} href="">
+                            <img src={service_icon1} alt="" />
+                            <div className={style['ser-sec-content']}>
+                                <h3>Business Growth</h3>
+                                <h5>Nostrud exercitation alia consequatur auor...</h5>
+                            </div>
+                        </a>
+                        <a className={style['ser-sec-elm']} href="">
+                            <img src={service_icon2} alt="" />
+                            <div className={style['ser-sec-content']}>
+                                this content2
+                            </div>
+                        </a>
+                    </div>
+                    <div className={style['ser-sec-gr']}>
+                        <a className={style['ser-sec-elm']} href="">
+                            <img src={service_icon3} alt="" />
+                            <div className={style['ser-sec-content']}>
+                                this content3
+                            </div>
+                        </a>
+                        <a className={style['ser-sec-elm']} href="">
+                            <img src={service_icon4} alt="" />
+                            <div className={style['ser-sec-content']}>
+                                this content4
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
