@@ -1,5 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
 import style from './AboutUs.module.css'
+=======
+import style from '../component/AboutUs.module.css'
+>>>>>>> Service
 import AboutSecImg from '../assets/about-sec-img.jpg'
 import video from '../assets/video-poster.jpg'
 
@@ -26,7 +30,14 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className={style['ab-video']}>
+<<<<<<< HEAD
                 <img src={video} alt="" />
+=======
+                <div className={style['ab-video-none']}></div>
+                <div className={style['ab-video-none']}>
+                    <img src={video} alt="" />
+                </div>
+>>>>>>> Service
             </div>
         </div>
     )
