@@ -5,6 +5,7 @@ import SettingsPhoneTwoToneIcon from '@mui/icons-material/SettingsPhoneTwoTone';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FadeIn from 'react-fade-in';
 
 const NavBar = () => {
     return (
@@ -42,10 +43,12 @@ const NavBar = () => {
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit cillum
                             nulla pariatur nostrud exercitation.</p>
                     </div>
-                    <div data-aos="fade-down" className={style['BannerBtn']}>
-                        <button className={style['btn1']}>Get Start</button>
-                        <button>Learn More</button>
-                    </div>
+                    <FadeIn>
+                        <div className={style['BannerBtn']}>
+                            <button className={style['btn1']}>Get Start</button>
+                            <button>Learn More</button>
+                        </div>
+                    </FadeIn>
                 </div>
             </div>
             <div className="none"></div>
