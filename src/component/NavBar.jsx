@@ -5,7 +5,6 @@ import SettingsPhoneTwoToneIcon from '@mui/icons-material/SettingsPhoneTwoTone';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FadeIn from 'react-fade-in';
 
 const NavBar = () => {
     return (
