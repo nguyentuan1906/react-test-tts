@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
 .Header{
     position: relative;
     background: url(../assets/background1.jpg) ;

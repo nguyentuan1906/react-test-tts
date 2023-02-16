@@ -43,12 +43,10 @@ const NavBar = () => {
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit cillum
                             nulla pariatur nostrud exercitation.</p>
                     </div>
-                    <FadeIn>
-                        <div className={style['BannerBtn']}>
-                            <button className={style['btn1']}>Get Start</button>
-                            <button>Learn More</button>
-                        </div>
-                    </FadeIn>
+                    <div className={style['BannerBtn']}>
+                        <button className={style['btn1']}>Get Start</button>
+                        <button>Learn More</button>
+                    </div>
                 </div>
             </div>
             <div className="none"></div>
