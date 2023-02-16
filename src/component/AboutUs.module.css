@@ -1,0 +1,74 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+.AboutSection{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 7vw;
+    padding-top: 5vw;
+    padding-right: 7vw;
+}
+
+.about-left-con{
+    flex: 2;
+}
+
+.about-right-con{
+    flex: 3;
+    margin-left: 5vw;
+}
+
+.about-right-con h5{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.ab-content{
+    margin: 0 0 18px 0;
+    color: gray;
+}
+
+.about-right-con .ab-title{
+    margin: 0 0 8px 0;
+    color: orange;
+}
+
+.about-right-con h2{
+    margin: 0 0 24px 0;
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 700;
+}
+
+.TopLeftShape{
+    position: absolute;
+    top: 30;
+    box-sizing: border-box;
+    background: url(../assets/Top-Left-Shape.png) no-repeat top left;
+    background-size: cover;
+    width: 24vw;
+    height: 24vw;
+}
+
+.about-sec-img{
+    position: relative;
+    left: 2vw;
+    top: 2vw;
+}
+
+.ab-video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -5vw;
+    padding-right: 7vw;
+}
+
+.ab-video img{
+    flex: 3;
+}
+
+.ab-video-none{
+    flex: 1;
+}
