@@ -27,7 +27,7 @@ const Container = () => {
                     </div>
                 </div>
                 <div className={style['ab-video']}>
-                    <div className={style['none']}></div>
+                    <div className={style['ab-video-none']}></div>
                     <img src={video} alt="" />
                 </div>
             </div>

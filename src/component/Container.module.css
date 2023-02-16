@@ -69,6 +69,10 @@
     flex: 3;
 }
 
+.ab-video-none{
+    flex: 1;
+}
+
 .Service{
     background-color: #F3F3F5;
     padding: 5vw;
