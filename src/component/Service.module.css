@@ -1,7 +1,9 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
 .Service{
     background-color: #F3F3F5;
-    padding: 5vw;
-    display: flex;
+    padding: 10% 5%;
 }
 
 .Curve-shape2{
@@ -10,33 +12,37 @@
     width: 24vw;
     height: 24vw;
     right: 0;
+    top: 0;
     position: absolute;
 }
 
 .ServiceSection{
     display: flex;
+    justify-content: center;
 
 }
 
 .ser-left-sec{
-    flex: 2;
     background: url(../assets/service-left-img.jpg);
     background-size: cover ;
     padding: 10vw 2vw;
     color: #F3F3F5;
     display: flex;
     flex-direction: column;
+    width: 26%;
 }
 
 .ser-left-sec h5{
     font-size: 24px;
     line-height: 35px;
     font-weight: 500;
+    margin: 0;
 }
 
 .ser-left-sec h2{
     font-size: 55px;
     font-weight: 700;
+    margin: 0;
 }
 
 .ser-left-sec button{
@@ -46,7 +52,7 @@
     color: #F3F3F5;
     border-radius: 50px;
     padding: 15px 15px;
-    margin: 0px 60px 0 0;
+    margin-right: 60px;
 
     transition-duration: .4s;
     transition-property: transform;
@@ -60,11 +66,12 @@
 }
 
 .ser-right-sec{
-    flex: 2;
-    background-color: #F3F3F5;
-    padding: 5vw;
+    background-color: #FFFFFF;
+    padding: 2%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    width: 55%;
 }
 
 .ser-sec-gr{
@@ -77,24 +84,70 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 2vw;
+    padding: 2vw 0vw 0 2vw;
+    text-decoration: none;
+    border-top: 2px solid #007bff;
+    width: 40%;
+    height: 90%;
+    background-color: #f8f8f8;
 }
 
 .ser-sec-elm img{
-    width: 4vw;
-    height: 4vw;
-    margin-right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 3%;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.ser-sec-elm img:hover{
+    transform: translateY(-8px);
 }
 
 .ser-sec-content{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .ser-sec-content h3{
-    margin: 0;
+    color: black;
+    font-size: 24px;
+    padding: 0 2%;
 }
 
 .ser-sec-content h5{
+    color: gray;
+    font-size: 14px;
     margin: 0;
+}
+
+.ser-around{
+    font-size: 28px;
+    text-decoration: none;
+}
+.ser-sec-btn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.ser-sec-btn a{
+    background-color: #FA9F3C;
+    text-align: right;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 40px 0 0 0;
+    color: white
+}
+
+.ser-sec-btn a:hover{
+    background-color: #007bff;
+}
+
+.ser-sec-elm:hover{
+    border-top: 2px solid #FA9F3C;
+    box-shadow: 0px 0px 10px 0px #888888;
 }
