@@ -140,6 +140,12 @@
 }
 
 .ser-sec-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ser-sec-btn a{
     background-color: #FA9F3C;
     text-align: right;
     width: 3vw;

@@ -4,6 +4,7 @@ import service_icon1 from '../assets/service-icon1.png'
 import service_icon2 from '../assets/service-icon2.png'
 import service_icon3 from '../assets/service-icon3.png'
 import service_icon4 from '../assets/service-icon4.png'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Service = () => {
     return (
@@ -28,7 +29,7 @@ const Service = () => {
                                 <h3>Business Growth</h3>
                                 <h5>Nostrud exercitation alia consequatur auor...</h5>
                                 <div className={style['ser-sec-btn']}>
-                                    <a href="" className={style['ser-around']}>	➜</a>
+                                    <a href="" className={style['ser-around']}>	<ArrowForwardIcon fontSize="small"/> </a>
                                 </div>
                             </div>
                         </a>
@@ -38,7 +39,7 @@ const Service = () => {
                                 <h3>Marketing Advices</h3>
                                 <h5>Nostrud exercitation alia consequatur auor...</h5>
                                 <div className={style['ser-sec-btn']}>
-                                    <a href="" className={style['ser-around']}>	➜</a>
+                                    <a href="" className={style['ser-around']}>	<ArrowForwardIcon fontSize="small"/> </a>
                                 </div>
                             </div>
                         </a>
@@ -50,7 +51,7 @@ const Service = () => {
                                 <h3>Finance Consulting</h3>
                                 <h5>Nostrud exercitation alia consequatur auor...</h5>
                                 <div className={style['ser-sec-btn']}>
-                                    <a href="" className={style['ser-around']}>	➜</a>
+                                    <a href="" className={style['ser-around']}>	<ArrowForwardIcon fontSize="small"/> </a>
                                 </div>
                             </div>
                         </a>
@@ -60,7 +61,7 @@ const Service = () => {
                                 <h3>Wealth Management</h3>
                                 <h5>Nostrud exercitation alia consequatur auor...</h5>
                                 <div className={style['ser-sec-btn']}>
-                                    <a href="" className={style['ser-around']}>	➜</a>
+                                    <a href="" className={style['ser-around']}>	<ArrowForwardIcon fontSize="small"/></a>
                                 </div>
                             </div>
                         </a>
