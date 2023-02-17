@@ -1,97 +1,16 @@
-*{
-    font-family: 'Rajdhani', sans-serif;
-}
-.Header{
+.Header {
     position: relative;
-    background: url(../assets/background1.jpg) ;
+    background: url(../assets/background1.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100% !important;
     height: 912px;
     display: flex;
-    flex-direction: column;
-    z-index: 30;
-   justify-content: space-evenly;
-}
-
-.TopLeftShape{
-    position: absolute;
-    top: 0;
-    box-sizing: border-box;
-    background: url(../assets/Top-Left-Shape.png) no-repeat top left;
-    background-size: cover;
-    width: 24vw;
-    height: 24vw;
-}
-
-.NavBar{
-    position: absolute;
-    display: flex;
-    width: 100%;
-    top: 0;
-}
-
-.Logo{
-    flex: 1;
-    padding: 20px;
-}
-
-.Menu{
-    flex: 7;
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-
-.Menu a{
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
     justify-content: center;
-    margin: 0px 20px;
 }
 
-.Menu a:hover{
-    color: #FA9F3C;
-}
-
-.Menu button{
-    background-color: #FA9F3C;
-    font-size: 14px;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 15px 30px;
-    margin: 0px 20px;
-
-    transition-duration: .4s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-}
-
-.Menu button:hover{
-    background-color: #2880FC;
-    transform: translateY(-8px);
-}
-
-.ContactBox{
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.ContactBox p{
-    color: white;
-    margin: 0px;
-}
-
-.icon{
-    color: aliceblue;
-    margin-right: 15px;
-}
-
-.BottomRightShape{
+.BottomRightShape {
     position: absolute;
     box-sizing: border-box;
     background: url(../assets/Bottom-Right-Shape.png) no-repeat top left;
@@ -102,27 +21,155 @@
     height: 24vw;
 }
 
-.Banner{
-    position: relative;
-    padding-left: 15vw;
+.TopLeftShape {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../assets/Top-Left-Shape.png) no-repeat top left;
+    background-size: cover;
+    width: 363px;
+    height: 360px;
+}
+
+.NavBar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding-top: 3%;
+}
+
+.Logo {
+    left: 0;
+}
+
+.Menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    left: 0;
+}
+
+.MenuList {
     display: flex;
 }
 
-.BannerLink{
+.Menu a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin: 8px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Menu .MenuList a:hover {
+    color: #FA9F3C;
+}
+
+.Menu .HomeBtn {
+    color: #FA9F3C;
+}
+
+.ContactBox {
+    display: flex;
+    align-items: center;
+}
+
+.NavBtn {
+    background-color: #FA9F3C;
+    border-radius: 30px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.NavBtn:hover {
+    background-color: #2880FC;
+    transform: translateY(-8px);
+}
+
+.NavBtn a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactSec {
+    display: flex;
+    padding: 0 0 0 40px;
+}
+
+.ContactIcon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 0;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+
+.ContactIcon:hover {
+    background-color: #2880FC;
+    border-color: #2880FC;
+}
+
+.ContactPhone {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    left: 130px;
-    bottom: 30px;
+    align-items: start;
 }
 
-.BannerLink a{
+.ContactPhone span {
+    font-size: 16px;
+    color: white;
+}
+
+.ContactPhone .Span2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.Banner {
+    position: relative;
+    width: 1010px;
+    height: 435px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.BannerLink {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: -90px;
+}
+
+.Link {
+    color: #FFFFFF;
+}
+
+.BannerLink a {
     border: 1px solid #FFFFFF;
     padding: 2px;
     margin-bottom: 15px;
-    width: 3vw;
-    height: 3vw;
+    width: 48px;
+    height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,64 +180,117 @@
     transition-timing-function: ease-out;
 }
 
-.BannerLink a:hover{
+.BannerLink a:hover {
     background-color: #FA9F3C;
     transform: translateY(-8px);
 }
 
-.Link{
+.BannerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Curve {
+    position: absolute;
+    z-index: -1;
+    background: url(../assets/Curve-shape.png);
+    background-size: cover;
+    width: 89px;
+    height: 88px;
+    top: -15px;
+    left: -15px;
+}
+.BannerContent {
     color: #FFFFFF;
 }
 
-
-.BannerContent{
+.BannerContent h1 {
+    display: inline-block;
     position: relative;
-    padding-left: 10px;
-    color: #FFFFFF;
-    width: 40vw;
+    z-index: 2;
+    font-size: 80px;
+    line-height: 82px;
+    font-weight: 700;
+    margin-bottom: 14px;
 }
 
-.BannerContent h1{
-    font-size: 64px;
-}
-
-.BannerContent p{
+.BannerContent p {
+    margin: 0;
+    margin-bottom: 38px;
+    padding: 0;
     font-size: 20px;
 }
 
-.Curve{
-    background: url(../assets/Curve-shape.png);
-    background-size: cover;
-    box-sizing: border-box;
-    position: absolute;
-    top: 50px;
-    width: 5vw;
-    height: 5vw;
+.BannerBtn{
+    display: flex;
 }
 
-.BannerBtn button{
-    font-size: 28px;
-    font-weight: 600;
-    background-color: transparent;
-    font-size: 14px;
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 20px;
-    padding: 15px 50px;
-    margin: 0px 10px;
+.BannerBtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BannerBtn div:hover{
+    border-color: #2880FC;
+    background-color: #2880FC;
+    transform: translateY(-8px);
+}
+
+.NavBtn1 {
+    background-color: #FA9F3C;
+    border-radius: 30px;
+    margin-right: 10px;
 
     transition-duration: .4s;
     transition-property: transform;
     transition-timing-function: ease-out;
 }
 
-.BannerBtn .btn1{
-    background-color: #FA9F3C;
-    border: 1px solid #FA9F3C;
+.NavBtn2 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
 }
 
-.BannerBtn button:hover{
-    background-color: #2880FC;
-    border: 1px solid #2880FC;
-    transform: translateY(-8px);
-}
+/* @media screen and (max-width: 1200px) {
+    .Header{
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ContactBox {
+        display: none
+    }
+
+    .NavBar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Menu {
+        display: flex;
+        justify-content: end;
+    }
+
+    .BannerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .BannerContent h1{
+        font-size: 30px;
+    }
+} */

@@ -1,10 +1,11 @@
 import React from 'react'
 import style from './NavBar.module.css'
 import Finanzo from '../assets/Finanzo.png'
-import SettingsPhoneTwoToneIcon from '@mui/icons-material/SettingsPhoneTwoTone';
+import ContactIcon from '../assets/contact-icon.png'
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const NavBar = () => {
     return (
@@ -13,42 +14,56 @@ const NavBar = () => {
             <div className={style['NavBar']}>
                 <a className={style['Logo']} href=""><img src={Finanzo} /></a>
                 <div className={style['Menu']}>
-                    <a href="">Home</a>
-                    <a href="">About Us</a>
-                    <a href="">News</a>
-                    <a href="">Services</a>
-                    <a href="">Pages</a>
-                    <a href="">Team</a>
-                    <button>Contact Us</button>
+                    <div className={style['MenuList']}>
+                        <a href="" className={style['HomeBtn']}>Home</a>
+                        <a href="">About Us</a>
+                        <a href="">News</a>
+                        <a href="">Services <ArrowDropDownIcon fontSize="large" /></a>
+                        <a href="">Pages <ArrowDropDownIcon fontSize="large" /></a>
+                        <a href="">Team</a>
+                    </div>
                     <div className={style['ContactBox']}>
-                        <SettingsPhoneTwoToneIcon className={style['icon']} fontSize="large" />
-                        <div>
-                            <p>Call us at:</p>
-                            <p >+613 8376 628</p>
+                        <div className={style['NavBtn']}><a href="">Contact Us</a></div>
+                        <div className={style['ContactSec']}>
+                            <div className={style['ContactIcon']}>
+                                <img src={ContactIcon} alt="" />
+                            </div>
+                            <div className={style['ContactPhone']}>
+                                <span className={style['Span1']}>Call us at:</span>
+                                <span className={style['Span2']}>+613 8376 628</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div className={style['Banner']}>
                 <div className={style['BannerLink']}>
                     <a href=""> <FacebookOutlinedIcon fontSize="small" className={style['Link']} /> </a>
                     <a href=""> <TwitterIcon fontSize="small" className={style['Link']} /> </a>
                     <a href=""> <LinkedInIcon fontSize="small" className={style['Link']} /> </a>
                 </div>
-                <div className={style['BannerContent1']}>
-                    <div className={style['Curve']}></div>
+                <div className={style['BannerContainer']}>
                     <div className={style['BannerContent']}>
-                        <h1>Create New Ways to Better Invest</h1>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit cillum
-                            nulla pariatur nostrud exercitation.</p>
+                        <h1>
+                            <div className={style['Curve']}></div>
+                            Create New Ways
+                            <br />
+                            to Better Invest
+                        </h1>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit cillum
+                            <br />
+                            nulla pariatur nostrud exercitation.
+                        </p>
                     </div>
                     <div className={style['BannerBtn']}>
-                        <button className={style['btn1']}>Get Start</button>
-                        <button>Learn More</button>
+                        <div className={style['NavBtn1']}><a href="">Get Started</a></div>
+                        <div className={style['NavBtn2']}><a href="">Lern More</a></div>
                     </div>
                 </div>
             </div>
-            <div className="none"></div>
+
             <div className={style['BottomRightShape']}></div>
         </div>
     )
