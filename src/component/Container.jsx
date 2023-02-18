@@ -4,6 +4,7 @@ import AboutUs from './AboutUs'
 import Service from './Service'
 import Business from './Business'
 import Static from './Static'
+import Case from './Case'
 
 const Container = () => {
     return (
@@ -12,6 +13,7 @@ const Container = () => {
             <Service/>
             <Business/>
             <Static/>
+            <Case/>
         </div>
     )
 }

@@ -1,0 +1,139 @@
+.Case{
+    padding: 126px 0 130px 0;
+    height: 1532px;
+}
+
+.CaseInner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CaseHeading h5{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.CaseHeading h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.CaseBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CaseLink{
+    position: relative;
+    width: 350px;
+    height: 492px;
+    margin: 10px 10px;
+}
+
+.CaseCurve{
+    position: absolute;
+    background: url(../assets/Curve-case-img.png);
+    width: 169px;
+    height: 168px;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.6s ease-in-out;
+}
+
+.CasePicture{
+    position: absolute;
+}
+
+.CaseText{
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    bottom: 0;
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+
+.CaseText h3{
+    padding: 0;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.CaseBackground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #4e98ffc4;
+    z-index: -1;
+    opacity: 0;
+}
+
+.CaseIcon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: -1;
+    left: 50px;
+    bottom: 50px;
+    color: #FA9F3C;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.CaseLink:hover .CaseCurve{
+    display: block;
+    z-index: 2;
+    opacity: 1;
+}
+.CaseLink:hover .CaseText{
+    bottom: 350px;
+    z-index: 2;
+}
+
+.CaseLink:hover .CaseBackground{
+    z-index: 1;
+    opacity: 1;
+}
+
+.CaseLink:hover .CaseIcon{
+    z-index: 3;
+    opacity: 1;
+}
+
+.CaseButton{
+    display: flex;
+    justify-content: center;
+}
+
+.CaseButton a{
+    padding: 16px 44px;
+    color: white;
+    text-decoration: none;
+    background-color: #FA9F3C;
+    border-radius: 50px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.CaseButton a:hover{
+    transform: translateY(-8px);
+}
