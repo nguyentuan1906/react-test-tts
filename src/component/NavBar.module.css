@@ -1,6 +1,9 @@
+*{
+    font-family: 'Rajdhani';
+}
 .Header {
     position: relative;
-    background: url(../assets/background1.jpg);
+    background: url(../assets/background1.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     width: 100% !important;
@@ -58,12 +61,13 @@
 }
 
 .Menu a {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     margin: 8px 20px;
     display: flex;
     align-items: center;
+    font-family: 'Rajdhani'
 }
 
 .Menu .MenuList a:hover {
@@ -165,7 +169,7 @@
 }
 
 .BannerLink a {
-    border: 1px solid #FFFFFF;
+    border: 0.7px solid #FFFFFF;
     padding: 2px;
     margin-bottom: 15px;
     width: 48px;
@@ -206,6 +210,7 @@
 }
 
 .BannerContent h1 {
+    font-family: 'Rajdhani';
     display: inline-block;
     position: relative;
     z-index: 2;
@@ -263,34 +268,268 @@
     transition-timing-function: ease-out;
 }
 
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
     .Header{
-        height: 60%;
+        margin: 0;
+        padding: 0;
+        height: 550px;
+    }
+    .TopLeftShape{
+        height: 229px;
+        width: 229px;
+    }
+
+    .BottomRightShape{
+        height: 229px;
+        width: 229px;
+    }
+
+    .NavBar{
+        padding-top: 20px;
+    }
+
+    .ContactBox{
+        display: none;
+    }
+
+    .Banner{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .BannerLink{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 70px;
+    }
+
+    .BannerLink a {
+        border: 1px solid gray;
+        padding: 0.1px;
+        margin-bottom: 15px;
+        width: 48px;
+        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 50%;
+    
+        transition-duration: .4s;
+        transition-property: transform;
+        transition-timing-function: ease-out;
     }
-    .ContactBox {
-        display: none
+    
+    .BannerLink a:hover {
+        background-color: #FA9F3C;
+        transform: translateY(-8px);
     }
-
-    .NavBar {
+    
+    .BannerContainer{
         display: flex;
-        justify-content: space-between;
-    }
-
-    .Menu {
-        display: flex;
-        justify-content: end;
+        flex-direction: column;
     }
 
     .BannerContent{
         display: flex;
+        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .BannerContent h1{
-        font-size: 30px;
+        display: inline-block;
+        margin: 0 0 14px 0;
+        font-size: 70px;
+        line-height: 74px;
+        font-weight: 700;
+        text-align: center;
     }
-} */
+    .BannerContent p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .BannerBtn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .BannerBtn a{
+        width: 95px;
+        height: 35px;
+        margin: 11px 38px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Header {
+        position: relative;
+        background: url(../assets/background1.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100% !important;
+        height: 386px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .BottomRightShape {
+        position: absolute;
+        box-sizing: border-box;
+        background: url(../assets/Bottom-Right-Shape.png) no-repeat top left;
+        background-size: cover;
+        bottom: 0;
+        right: 0;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .TopLeftShape {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../assets/Top-Left-Shape.png) no-repeat top left;
+        background-size: cover;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .NavBar {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+        padding: 3%;
+
+    }
+    
+    .Logo  img{
+        left: 0;
+        width: 130px;
+        height: 30px;
+    }
+    
+    .Menu {
+        display: none;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+        left: 0;
+    }
+    
+    .MenuList {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Menu a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        margin: 8px 20px;
+        display: flex;
+        align-items: center;
+        font-family: 'Rajdhani'
+    }
+    
+    .Menu .MenuList a:hover {
+        color: #FA9F3C;
+    }
+    
+    .Menu .HomeBtn {
+        color: #FA9F3C;
+    }
+    
+    .Banner {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .BannerLink {
+        display: none;
+    }
+    
+    .BannerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Curve {
+        position: absolute;
+        background: url(../assets/Curve-shape.png);
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+    }
+
+    .BannerContent {
+        width: 70%;
+        color: #FFFFFF;
+    }
+    
+    .BannerContent h1 {
+        font-family: 'Rajdhani';
+        display: block;
+        position: relative;
+        z-index: 2;
+        font-size: 38px;
+        line-height: 40px;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    
+    .BannerContent p {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    .BannerBtn{
+        margin: 0;
+        padding: 0;
+        display: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .BannerBtn div{
+        margin: 0;
+        padding: 0;
+    }
+
+    .BannerBtn a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FA9F3C;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+    
+    
+    .NavBtn2 {
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 30px;
+    }
+}
