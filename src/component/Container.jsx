@@ -7,6 +7,7 @@ import Static from './Static'
 import Case from './Case'
 import Blog from './Blog'
 import Form from './Form'
+import Footer from './Footer'
 
 const Container = () => {
     return (
@@ -18,6 +19,7 @@ const Container = () => {
             <Case/>
             <Blog/>
             <Form/>
+            <Footer/>
         </div>
     )
 }

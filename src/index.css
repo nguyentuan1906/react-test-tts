@@ -27,10 +27,3 @@ h2{
   font-size: 55px;
 }
 
-@import url(../src/component/NavBar.module.css);
-@import url(../src/component/Container.module.css);
-@import url(../src/component/AboutUs.module.css);
-@import url(../src/component/Service.module.css);
-@import url(../src/component/Business.module.css);
-@import url(../src/component/Static.module.css);
-@import url(../src/component/Case.module.css);
