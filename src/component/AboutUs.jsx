@@ -5,7 +5,7 @@ import video from '../assets/video-poster.jpg'
 
 const AboutUs = () => {
     return (
-        <div className={style['AboutUs']}>
+        <div data-aos="fade-up" data-aos-duration="3000" className={style['AboutUs']}>
             <div className={style['AboutSection']}>
                 <div className={style['about-left-con']}>
                     <div className={style['TopLeftShape']}></div>

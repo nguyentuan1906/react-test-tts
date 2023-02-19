@@ -184,6 +184,12 @@
     transition-timing-function: ease-out;
 }
 
+.BannerBtn{
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
 .BannerBtn .btn1{
     background-color: #FA9F3C;
     border: 1px solid #FA9F3C;

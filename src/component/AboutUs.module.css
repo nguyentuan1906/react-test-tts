@@ -1,6 +1,11 @@
 *{
     font-family: 'Rajdhani', sans-serif;
 }
+
+.About{
+    transition: 0.6s;
+}
+
 .AboutSection{
     display: flex;
     justify-content: space-evenly;

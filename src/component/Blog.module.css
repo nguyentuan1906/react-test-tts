@@ -1,0 +1,134 @@
+.Blog{
+    padding: 126px 0 130px 0;
+}
+
+.BlogInner{
+    display: flex;
+    flex-direction: column;
+}
+
+.BlogHeader{
+    text-align: center;
+}
+
+.BlogHeader h5{
+    color: #FA9F3C;
+    margin-bottom: 8px;
+}
+
+.BlogHeader h2{
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.BlogBody{
+    display: flex;
+    justify-content: center;
+}
+
+.BlogElement{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.BlogElement:hover{
+    box-shadow: 0px 0px 10px 0px #bebebe;;
+}
+
+.BlogImg{
+
+
+}
+
+
+.BlogElement .BlogImg{
+    width: 350px;
+    height: 240px;
+    overflow: hidden;
+    
+}
+
+.BlogElement .BlogImg img{
+    transform: scale(1.0);
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.BlogElement:hover .BlogImg img{
+    transform: scale(1.1);
+}
+
+.ElementBody{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ElementTitle{
+    margin-bottom: 23px;
+    width: 25%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    color: #FA9F3C;
+    background-color: #fef5eb;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.ElementBody h3{
+    margin: 0 0 7px 0;
+}
+
+.ElementBody p{
+    font-size: 20px;
+    margin: 0 0 18px 0;
+}
+
+.ElementFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FooterLeft{
+    display: flex;
+    align-items: center;
+}
+
+.FooterLeft span{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.FooterRight p{
+    margin: 0;
+}
+
+.BlogButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.BlogButton a{
+    padding: 16px 44px;
+    color: white;
+    text-decoration: none;
+    background-color: #FA9F3C;
+    border-radius: 50px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.BlogButton a:hover{
+    transform: translateY(-8px);
+}

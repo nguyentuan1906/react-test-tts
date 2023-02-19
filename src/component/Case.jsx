@@ -30,7 +30,7 @@ const Case = () => {
                                 <h3>Financial Report 2019</h3>
                             </div>
                             <div className={style['CaseBackground']}></div>
-                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large"/></div>
+                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large" /></div>
                         </a>
                         <a className={style['CaseLink']} href="">
                             <div className={style['CaseCurve']}></div>
@@ -44,6 +44,7 @@ const Case = () => {
                             </div>
                             <div className={style['CaseBackground']}></div>
                             <div className={style['CaseLink']} href=""></div>
+                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large" /></div>
                         </a>
                         <a className={style['CaseLink']} href="">
                             <div className={style['CaseCurve']}></div>
@@ -56,6 +57,7 @@ const Case = () => {
                                 <h3>Enterprise Loan 2016</h3>
                             </div>
                             <div className={style['CaseBackground']}></div>
+                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large" /></div>
                         </a>
                     </div>
                     <div className={style['Group']}>
@@ -70,6 +72,7 @@ const Case = () => {
                                 <h3>Business Growth Solutions</h3>
                             </div>
                             <div className={style['CaseBackground']}></div>
+                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large" /></div>
                         </a>
                         <a className={style['CaseLink']} href="">
                             <div className={style['CaseCurve']}></div>
@@ -82,6 +85,7 @@ const Case = () => {
                                 <h3>Marketing Solusion Advice</h3>
                             </div>
                             <div className={style['CaseBackground']}></div>
+                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large" /></div>
                         </a>
                         <a className={style['CaseLink']} href="">
                             <div className={style['CaseCurve']}></div>
@@ -94,10 +98,11 @@ const Case = () => {
                                 <h3>Minda Business Consultinglting</h3>
                             </div>
                             <div className={style['CaseBackground']}></div>
+                            <div className={style['CaseIcon']}><ArrowForwardIcon fontSize="large" /></div>
                         </a>
                     </div>
                 </div>
-                <div className={style['CaseButton']}>
+                <div data-aos="fade-up" data-aos-duration="3000" className={style['CaseButton']}>
                     <a href="">View All Cases</a>
                 </div>
             </div>

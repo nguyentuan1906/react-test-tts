@@ -42,7 +42,7 @@ const NavBar = () => {
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit cillum
                             nulla pariatur nostrud exercitation.</p>
                     </div>
-                    <div className={style['BannerBtn']}>
+                    <div data-aos="fade-up" data-aos-duration="3000" className={style['BannerBtn']}>
                         <button className={style['btn1']}>Get Start</button>
                         <button>Learn More</button>
                     </div>
