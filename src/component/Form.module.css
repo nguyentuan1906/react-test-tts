@@ -1,4 +1,6 @@
-.Form{}
+.Form{
+    height: 876px;
+}
 
 .FormInner{
     position: relative;
