@@ -1,0 +1,81 @@
+.Form{}
+
+.FormInner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.FormCurve{
+    position: absolute;
+    z-index: 0;
+    width: 360px;
+    height: 363px;
+    left: 350px;
+}
+
+.Form_{
+    width: 70%;
+    position: absolute;
+    padding: 40px;
+    top: 25px;
+    background-color: #2880fc;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormHeader{
+    color: white;
+    text-align: center;
+}
+
+.FormBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.FormInformation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.FormInformation input{
+    padding: 20px 30px;
+    width: 25%;
+    border: 1px solid #2880fc;
+    border-radius: 50px;
+}
+
+.FormContent{
+    height: 150px;
+}
+
+.FormContent input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #2880fc;
+    border-radius: 30px;
+}
+
+.FormButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.FormButton a{
+    padding: 16px 44px;
+    color: white;
+    text-decoration: none;
+    background-color: #FA9F3C;
+    border-radius: 50px;
+
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.FormButton a:hover{
+    transform: translateY(-8px);
+}
